@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Student Registration From</h1>
+    <table width="100%">
+        <tr>
+            <td width="50%"></td>
+            <td width="50%">
+                <label for="date">DATE : </label> 
+                <input type="date" name="date">
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <h2>PERSONAL INFORMATION</h2> <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="name">NAME : </label>
+                <input type="text" name="name">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="birth">DATE OF BIRTH : </label>
+                <input type="date" name="birth">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <h2>CONTACT INFORMATION</h2> <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="address">ADRESS : </label>
+                <input type="text" name="address">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="city">CITY : </label>
+                <input type="text" name="city">
+                
+            </td>
+            <td>
+                <label for="province/state">PROVINCE/STATE : </label>
+                <input type="text" name="province">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="zipcode">ZIP CODE : </label>
+                <input type="text" name="zip">
+                
+            </td>
+            <td>
+                <label for="country">COUNTRY : </label>
+                <input type="text" name="country">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="phone">PHONE : </label>
+                <input type="number" name="phone">
+                
+            </td>
+            <td>
+                <label for="email">EMAIL : </label>
+                <input type="email" name="email">
+                
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="membership">MEMBERSHIP TYPE : </label>
+                <input type="radio" name="membership" value="regular">Regular
+                <input type="radio" name="membership" value="premium">Premium
+                <input type="radio" name="membership" value="vip">VIP
+            </td>
+        </tr>
+
+        <tr>
+            <td colspan="2">
+                <h2>COURSE INFORMATION</h2> <hr>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="course">COURSE NAME : </label>
+                <input type="text" name="course">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="payment">PAYMENT DETAILS : </label>
+                <input type="radio" name="payment" value="cash">Cash
+                <input type="radio" name="payment" value="cheque">Cheque
+                <input type="radio" name="payment" value="creditcard">Credit Card
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label for="course"> COMMENTS : </label>
+                <textarea name="comments" cols="30" rows="4"></textarea>
+            </td>
+        </tr>
+        <th>
+            <td>
+                <button type="submit" name="btn_submit">Submit</button>
+            </td>
+        </th>
+    </table>
+</body>
+</html>
